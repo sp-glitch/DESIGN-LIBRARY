@@ -2,7 +2,7 @@ $(function () {
   feather.replace();
 
   $("#content").fullpage({
-    anchors: ["intro", "pf01", "pf02", "pf03", "pf04", "pf05", "info"],
+    anchors: ["intro", "pf01", "pf02", "pf03", "pf04", "pf05", "pf06", "info"],
     navigation: false,
     css3: false,
     scrollOverflow: false,

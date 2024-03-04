@@ -185,31 +185,6 @@ h1 {
     width: 100%;
 }
 
-/* .intro .intro_t_t .d svg path {
-    animation: d-color 5s linear infinite;
-}
-
-@keyframes d-color {
-    0% {
-        fill: var(--blue-color);
-    }
-
-
-    30% {
-        fill: var(--pink-color);
-    }
-
-
-    60% {
-        fill: var(--yellow-color);
-    }
-
-    100% {
-        fill: var(--blue-color);
-    }
-} */
-
-
 .intro .intro_t_t .g {
     display: block;
     width: 156px;
@@ -221,29 +196,6 @@ h1 {
 }
 
 
-/* .intro .intro_t_t .g svg path {
-    animation: g-color 5s linear infinite;
-}
-
-@keyframes g-color {
-    0% {
-        fill: var(--pink-color);
-    }
-
-
-    30% {
-        fill: var(--yellow-color);
-    }
-
-
-    60% {
-        fill: var(--blue-color);
-    }
-
-    100% {
-        fill: var(--pink-color);
-    }
-} */
 
 .intro .intro_t_b {
     display: flex;
@@ -271,29 +223,6 @@ h1 {
 }
 
 
-/* .intro .intro_t_b .a svg path {
-    animation: a-color 5s linear infinite;
-}
-
-@keyframes a-color {
-    0% {
-        fill: var(--yellow-color);
-    }
-
-
-    30% {
-        fill: var(--blue-color);
-    }
-
-
-    60% {
-        fill: var(--pink-color);
-    }
-
-    100% {
-        fill: var(--yellow-color);
-    }
-} */
 
 
 .intro .intro_right {
@@ -457,116 +386,6 @@ h1 {
         max-width: 160px;
         width: 100%;
     }
-
-    /* .intro .intro_t_t .d svg path {
-    animation: d-color 5s linear infinite;
-}
-
-@keyframes d-color {
-    0% {
-        fill: var(--blue-color);
-    }
-
-
-    30% {
-        fill: var(--pink-color);
-    }
-
-
-    60% {
-        fill: var(--yellow-color);
-    }
-
-    100% {
-        fill: var(--blue-color);
-    }
-} */
-
-
-    .intro .intro_t_t .g {
-        display: block;
-        width: 156px;
-    }
-
-    .intro .intro_t_t .g svg {
-        max-width: 156px;
-        width: 100%;
-    }
-
-
-    /* .intro .intro_t_t .g svg path {
-    animation: g-color 5s linear infinite;
-}
-
-@keyframes g-color {
-    0% {
-        fill: var(--pink-color);
-    }
-
-
-    30% {
-        fill: var(--yellow-color);
-    }
-
-
-    60% {
-        fill: var(--blue-color);
-    }
-
-    100% {
-        fill: var(--pink-color);
-    }
-} */
-
-    .intro .intro_t_b {
-        display: flex;
-        margin: -50px 0 0 -12px;
-    }
-
-    .intro .intro_t_b span {
-        font-size: 200px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-
-        letter-spacing: -6px;
-    }
-
-    .intro .intro_t_b .a {
-        display: block;
-        width: 200px;
-
-        margin: -10px -15px 0 -5px;
-    }
-
-    .intro .intro_t_b .a svg {
-        max-width: 200px;
-        width: 100%;
-    }
-
-
-    /* .intro .intro_t_b .a svg path {
-    animation: a-color 5s linear infinite;
-}
-
-@keyframes a-color {
-    0% {
-        fill: var(--yellow-color);
-    }
-
-
-    30% {
-        fill: var(--blue-color);
-    }
-
-
-    60% {
-        fill: var(--pink-color);
-    }
-
-    100% {
-        fill: var(--yellow-color);
-    }
-} */
 
 
     .intro .intro_right {
@@ -794,6 +613,13 @@ th {
     background: var(--black-color);
 }
 
+
+
+
+
+
+
+
 /* 포트폴리오 컨셉 색상_연세대학교 */
 #portfolio01 .pf_table .colors span:nth-child(1) {
     background: #003777;
@@ -822,6 +648,21 @@ th {
 #portfolio03 .pf_table .colors span:nth-child(2) {
     background: #B2DEF1;
 }
+
+
+/* 포트폴리오 컨셉 색상_리바이스 */
+#portfolio04 .pf_table .colors span:nth-child(1) {
+    background: #C51230;
+}
+
+#portfolio04 .pf_table .colors span:nth-child(2) {
+    display: none;
+}
+
+
+
+
+
 
 
 
@@ -932,13 +773,10 @@ th {
     bottom: 60px;
     right: 100px;
 
-    /* transform: translate(-50%, -50%); */
     cursor: pointer;
     border: none;
     background: transparent;
 
-    /* opacity: 0; */
-    /* visibility: hidden; */
     transition: 0.5s;
 
     z-index: 999;
